@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Андрей Кижло](https://up.htmlacademy.ru/htmlcss-individual/2/user/2256505).
-* Наставник: [Дарья Шестерина]https://htmlacademy.ru/profile/id221124.
+* Наставник: [Дарья Шестерина](https://htmlacademy.ru/profile/id221124).
 
 ---
 
