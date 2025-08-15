@@ -2,6 +2,7 @@
 
 * Студент: [Андрей Кижло](https://up.htmlacademy.ru/htmlcss-individual/2/user/2256505).
 * Наставник: [Дарья Шестерина](https://htmlacademy.ru/profile/id221124).
+* Страница проекта: [Project Sedona 2](https://f0611603.github.io/2256505-sedona-2/).
 
 ---
 
