@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гостиницы</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo-wrapper">
+        <a href="#" class="logo-link">
+          <img src="#" alt="Логотип города  Седона" class="logo-image">
+        </a>
+      </div>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">О седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="user-menu">
+          <li class="user-menu-item">
+            <a href="#" class="user-menu-link">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="user-menu-item">
+            <a href="#" class="user-menu-link">
+              <span class="visually-hidden">Избранное</span>
+            </a>
+          </li>
+          <li class="user-menu-item">
+            <a href="#" class="button">Хочу сюда!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="catalog">
+      <section class="hotels">
+        <h1 class="hotel-title">Гостиницы Седоны</h1>
+        <ol class="breadcrambs">
+          <li class="breadcrambs-item">
+            <a href="../index.html" class="breadcrambs-link">
+              <img src="#" alt="Домик" class="home">
+              <span class="visually-hidden">На главную</span>
+            </a>
+          </li>
+          <li class="breadcrambs-item">
+            <a href="#" class="breadcrambs-link">
+              <span>Гостиницы</span>
+            </a>
+          </li>
+        </ol>
+        <form action="https://echo.htmlacademy.ru/" method="post" class="filter">
+          <fieldset class="filter-checkbox">
+            <legend>Инфраструктура:</legend>
+            <input type="checkbox" name="pull" id="pull" checked>
+            <label for="pull">Бассейн</label>
+            <input type="checkbox" name="parcking" id="parcking">
+            <label for="parcking">Парковка</label>
+            <input type="checkbox" name="Wi-Fi" id="Wi-Fi">
+            <label for="Wi-Fi">Wi-Fi</label>
+          </fieldset>
+          <fieldset class="filter-radio">
+            <legend>Тип жилья:</legend>
+            <input type="radio" name="type-of-hausing" id="hotel">
+            <label for="hotel">Гостиница</label>
+            <input type="radio" name="type-of-hausing" id="motel">
+            <label for="motel">Мотель</label>
+            <input type="radio" name="type-of-hausing" id="apartments">
+            <label for="apartments">Апартаменты</label>
+          </fieldset>
+          <fieldset class="filter-price">
+            <input type="number" placeholder="0" name="from" id="from">
+            <label for="from">От</label>
+            <input type="number" placeholder="9000" name="to" id="to">
+            <label for="to">До</label>
+            <input type="range" min="0" max="10000" value="9000">
+          </fieldset>
+          <button class="filter-submit button" type="submit">Применить</button>
+          <button class="filter-reset button" type="reset">Сбросить</button>
+        </form>
+      </section>
+      <section class="result">
+        <div class="result-wrapper">
+          <h2 class="result-titlt">Найдено гостиниц: <span class="result-sum">38</span></h2>
+        </div>
+        <form action="https://echo.htmlacademy.ru/" method="post" class="result-filter">
+          <select name="hotels" id="hotels-select">
+            <option value="lowcost" selected>Сначала дешевые</option>
+            <option value="hicost">Сначала дорогие</option>
+          </select>
+          <fieldset class="view">
+            <input type="radio" name="view-card" id="mini" checked>
+            <label for="mini"><img src="#" alt="Плиткой"></label>
+            <input type="radio" name="view-card" id="big">
+            <label for="big"><img src="#" alt="большие карточки"></label>
+            <input type="radio" name="view-card" id="table">
+            <label for="table"><img src="#" alt="Таблицей"></label>
+          </fieldset>
+        </form>
+        <ul class="selected-hotels">
+          <li class="select-hotel">
+            <img src="#" alt="расщелина в горах">
+            <h3 class="hotel-name">Amara Resort & Spa</h3>
+            <p class="hotel-type">Гостиница <span class="hotel-price">От 4000 ₽</span></p>
+            <a href="#" class="more">Подробнее</a>
+            <button class="like-add">В Избранное</button>
+            <img src="#" alt="звездочки" class="stars">
+            <div class="ratio">Рейтинг: <span class="ratio-value">8,5</span></div>
+          </li>
+          <li class="select-hotel">
+            <img src="#" alt="радуга над горами">
+            <h3 class="hotel-name">Villas at Poco Diablo</h3>
+            <p class="hotel-type">Гостиница <span class="hotel-price">От 5000 ₽</span></p>
+            <a href="#" class="more">Подробнее</a>
+            <button class="like-add added">В Избранном</button>
+            <img src="#" alt="звездочки" class="stars">
+            <div class="ratio">Рейтинг: <span class="ratio-value">9,2</span></div>
+          </li>
+          <li class="select-hotel">
+            <img src="#" alt="гора днем">
+            <h3 class="hotel-name">Desert Quail Inn</h3>
+            <p class="hotel-type">Гостиница <span class="hotel-price">От 2500 ₽</span></p>
+            <a href="#" class="more">Подробнее</a>
+            <button class="like-add">В Избранное</button>
+            <img src="#" alt="звездочки" class="stars">
+            <div class="ratio">Рейтинг: <span class="ratio-value">6,9</span></div>
+          </li>
+          <li class="select-hotel">
+            <img src="#" alt="гора ночью">
+            <h3 class="hotel-name">GreenTree Inn</h3>
+            <p class="hotel-type">Гостиница <span class="hotel-price">От 1500 ₽</span></p>
+            <a href="#" class="more">Подробнее</a>
+            <button class="like-add">В Избранное</button>
+            <img src="#" alt="звездочки" clГостиницаass="stars">
+            <div class="ratio">Рейтинг: <span class="ratio-value">5,0</span></div>
+          </li>
+        </ul>
+
+
+
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="social-list">
+        <a href="https://vk.com/htmlacademy" class="social-item">
+          <img src="#" alt="В контакте" class="social-logo">
+        </a>
+        <a href="https://t.me/htmlacademy" class="social-item">
+          <img src="#" alt="Телеграм" class="social-logo">
+        </a>
+        <a href=" https://www.youtube.com/user/htmlacademyru" class="social-item">
+          <img src="#" alt="Ютуб" class="social-logo">
+        </a>
+      </ul>
+      <div class="phone">+7 (812) 812-12-12</div>
+      <div class="copyright">
+        <a href="https://htmlacademy.ru/" class="copyright-link">
+          <img src="#" alt="htmlacademy" class="copyright-logo">
+        </a>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
