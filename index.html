@@ -8,21 +8,19 @@
 
   <body>
     <header class="header">
-      <div class="logo-wrapper">
-        <a href="#" class="logo-link">
-          <img src="#" alt="Логотип города  Седона" class="logo-image">
-        </a>
-      </div>
+      <a class="logo-link">
+        <img  alt="Логотип города  Седона" class="logo-image">
+      </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a href="#" class="navigation-link">Главная</a>
+            <a class="navigation-link">Главная</a>
           </li>
           <li class="navigation-item">
             <a href="#" class="navigation-link">О седоне</a>
           </li>
           <li class="navigation-item">
-            <a href="#" class="navigation-link">Гостиницы</a>
+            <a href="catalog.html" class="navigation-link">Гостиницы</a>
           </li>
         </ul>
         <ul class="user-menu">
@@ -33,7 +31,7 @@
           </li>
           <li class="user-menu-item">
             <a href="#" class="user-menu-link">
-              <span class="visually-hidden">Избранное</span>
+              <span class="visually-hidden">Избранное <span class="like-value">12</span></span>
             </a>
           </li>
           <li class="user-menu-item">
@@ -44,50 +42,46 @@
     </header>
     <main class="page">
       <section class="hero">
-        <h1 class="visually-hidden">Добро пожаловать в великолепную Седону</h1>
+        <h1 class="visually-hidden">Городок Седона</h1>
         <img src="#" alt="Добро пожаловать в великолепную Седону потому что гранд коньен отстой, Седона городок в горах"
           class="hero-image">
-        <h2 class="hero-discription">Седона — небольшой городок в Аризоне,<br>
+        <h2 class="hero-text">Седона — небольшой городок в Аризоне,<br>
           заслуживающий большего!</h2>
         <p class="hero-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
-      <section class="area-advantages">
+      <section class="advantages">
         <h2 class="visually-hidden">Перечень приемуществ Седоны</h2>
-        <ul class="area-advantages-list">
-          <li class="area-advantages-item card-long">
-            <div class="area-advantage-card">
-              <h3 class="area-advantage-title">Настоящий городок</h3>
-              <p class="area-advantage-discription">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            </div>
-            <div class="area-advantage-image-wrapper">
-              <img src="#" alt="городок" class="area-advantage-card-image">
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <div class="advantage-card card-long">
+              <h3 class="advantage-title">Настоящий городок</h3>
+              <p class="advantage-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              <img src="#" alt="городок" class="advantage-card-image">
             </div>
           </li>
-          <li class="area-advantages-item card-small">
-            <div class="area-advantage-card">
-              <h3 class="area-advantage-title">Небольшая площадь</h3>
-              <p class="area-advantage-discription">Все достопримечательности находятся очень близко</p>
+          <li class="advantages-item">
+            <div class="advantage-card  card-small">
+              <h3 class="advantage-title">Небольшая площадь</h3>
+              <p class="advantage-text">Все достопримечательности находятся очень близко</p>
             </div>
           </li>
-          <li class="area-advantages-item card-small">
-            <div class="area-advantage-card">
-              <h3 class="area-advantage-title">Красивая дорога</h3>
-              <p class="area-advantage-discription">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          <li class="advantages-item">
+            <div class="advantage-card  card-small">
+              <h3 class="advantage-title">Красивая дорога</h3>
+              <p class="advantage-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </div>
           </li>
-          <li class="area-advantages-item card-small">
-            <div class="area-advantage-card">
-              <h3 class="area-advantage-title">Мало туристов</h3>
-              <p class="area-advantage-discription">Мало туристов</p>
+          <li class="advantages-item">
+            <div class="advantage-card card-small">
+              <h3 class="advantage-title">Мало туристов</h3>
+              <p class="advantage-text">Мало туристов</p>
             </div>
           </li>
-          <li class="area-advantages-item card-long">
-            <div class="area-advantage-card">
-              <h3 class="area-advantage-title">Там есть мост дьявола</h3>
-              <p class="area-advantage-discription">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            </div>
-            <div class="area-advantage-image-wrapper">
-              <img src="#" alt="мост дьявола" class="area-advantage-card-image">
+          <li class="advantages-item">
+            <div class="advantage-card card-long">
+              <h3 class="advantage-title">Там есть мост дьявола</h3>
+              <p class="advantage-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              <img src="#" alt="мост дьявола" class="advantage-card-image">
             </div>
           </li>
         </ul>
@@ -142,7 +136,7 @@
           <img src="#" alt="Ютуб" class="social-logo">
         </a>
       </ul>
-      <div class="phone">+7 (812) 812-12-12</div>
+      <a href="tel:+78128121212" class="phone">+7 (812) 812-12-12</a>
       <div class="copyright">
         <a href="https://htmlacademy.ru/" class="copyright-link">
           <img src="#" alt="htmlacademy" class="copyright-logo">
@@ -150,4 +144,5 @@
       </div>
     </footer>
   </body>
+
 </html>
